@@ -1,0 +1,37 @@
+websites:
+
+    - name: Blizzard
+      url: http://blizzard.com
+      img: blizzard.png
+      tfa: Yes
+      sms: Yes
+      software: Yes
+      hardware: Yes
+      doc: https://eu.battle.net/support/ru/article/300606
+
+    - name: GOG.com
+      url: https://www.gog.com
+      img: gog.png
+      tfa: Yes
+      email: Yes
+      doc: https://www.gog.com/support/support_view/twostep_login_faq
+
+    - name: Origin
+      url: https://www.origin.com/
+      img: origin.png
+      tfa: Yes
+      email: Yes
+      sms: Yes
+      software: Yes
+      doc: http://help.ea.com/ru/article/origin-login-verification-information/
+
+
+    - name: Steam
+      url: http://store.steampowered.com/
+      img: steam.png
+      tfa: Yes
+      email: Yes
+      software: Yes
+      doc: https://support.steampowered.com/kb_article.php?ref=8625-WRAH-9030&l=russian
+      exceptions:
+        text: "Программная реализация требует Steam Mobile app. Не поддерживает несколько аккаунтов на одном устройстве. Не телефонные устройства не поддерживаются. СМС используется для сброса паролей"

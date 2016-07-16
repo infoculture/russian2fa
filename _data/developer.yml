@@ -1,0 +1,31 @@
+websites:
+
+    - name: Bitbucket
+      url: https://bitbucket.org
+      img: bitbucket.png
+      tfa: Yes
+      software: Yes
+      hardware: Yes
+      doc: https://confluence.atlassian.com/x/425QLg
+
+    - name: Docker
+      url: https://docker.com/
+      twitter: docker
+      img: docker.png
+      tfa: No
+
+    - name: GitHub
+      url: https://github.com
+      img: github.png
+      tfa: Yes
+      sms: Yes
+      hardware: Yes
+      software: Yes
+      doc: https://help.github.com/articles/about-two-factor-authentication
+
+
+    - name: New Relic
+      url: https://newrelic.com
+      twitter: newrelic
+      img: newrelic.png
+      tfa: No

@@ -1,0 +1,100 @@
+{% assign section_id = include.id-param %}
+{% assign section_title = include.title-param %}
+{% assign section_file = site.data[section_id] %}
+<div class="website-table mobile-table {{ section_id }}-table" id="{{ section_id }}-mobiletable" style="display:none">
+  <div class="label">
+    <h3>{{ section_title }}</h3>
+  </div>
+  <div class="jets-content">
+    {% for website in section_file.websites %}
+    {% if website.lang and site.data.languages[website.lang] %}
+      {% assign progress_tweet = site.data.languages[website.lang].progress_tweet %}
+      {% assign workonit_tweet = site.data.languages[website.lang].work_tweet %}
+    {% else %}
+      {% assign progress_tweet = page.progress_tweet %}
+      {% assign workonit_tweet = page.workonit_tweet %}
+    {% endif %}
+    {% if website.status %}
+    <div class="main progress">
+      <div class="left">
+        {% if website.img %}
+        <noscript><img src="/img/{{ section_id }}/{{ website.img }}" class="icon" alt="{{ website.name }}"></noscript>
+        <img src="/img/placeholder.png" data-src="/img/{{ section_id }}/{{ website.img }}" class="icon"
+             alt="{{ website.name }}">
+        {% endif %}
+        <a href="{{ website.url }}" class="name">{{ website.name }}</a>
+        {% include exception.html website=website %}
+        <p>IN PROGRESS!</p>
+
+        <a href="{{ website.status }}" target="_blank">
+          <i class="external url link large icon"></i> Current Status
+        </a>
+      </div>
+      <div class="right">
+        <a class="ui twitter mini button"
+           href="https://twitter.com/share?url={{site.url|cgi_escape}}&amp;text={{progress_tweet|replace:'TWITTERHANDLE',website.twitter|cgi_escape}}&amp;hashtags={{page.hash|cgi_escape}}"
+           target="_blank"><i class="twitter icon"></i> {{page.link_progress_mobile}}</a>
+      </div>
+    </div>
+    {% elsif website.tfa %}
+    <div class="main positive">
+      <div class="left">
+        {% if website.img %}
+        <noscript><img src="/img/{{ section_id }}/{{ website.img }}" class="icon" alt="{{ website.name }}"></noscript>
+        <img src="/img/placeholder.png" data-src="/img/{{ section_id }}/{{ website.img }}" class="icon"
+             alt="{{ website.name }}">
+        {% endif %}
+        <a href="{{ website.url }}" class="name">{{ website.name }}</a>
+        {% include exception.html website=website %}
+        <br>
+
+        {% if website.sms %}
+        <p>СМС поддерживается!</p>
+        {% endif %}
+
+        {% if website.phone %}
+        <p>Телефон поддерживается!</p>
+        {% endif %}
+
+        {% if website.email %}
+        <p>Email поддерживается!</p>
+        {% endif %}
+
+        {% if website.hardware %}
+        <p>Аппаратный токен поддерживается!</p>
+        {% endif %}
+
+        {% if website.software %}
+        <p>Программный токен поддерживается!</p>
+        {% endif %}
+      </div>
+      {% if website.doc %}
+      <div class="right">
+        <a href="{{ website.doc }}" class="ui twitter mini button"><i class="large book icon"></i> DOCS</a>
+      </div>
+      {% endif %}
+    </div>
+    {% else %}
+    <div class="main negative">
+      <div class="left">
+        {% if website.img %}
+        <noscript><img src="/img/{{ section_id }}/{{ website.img }}" class="icon" alt="{{ website.name }}"></noscript>
+        <img src="/img/placeholder.png" data-src="/img/{{ section_id }}/{{ website.img }}" class="icon"
+             alt="{{ website.name }}">
+        {% endif %}
+        <a href="{{ website.url }}" class="name">{{ website.name }}</a>
+
+        <p>NO 2FA</p>
+      </div>
+      {% if website.twitter %}
+      <div class="right">
+        <a class="ui twitter mini button"
+           href="https://twitter.com/share?url={{site.url|cgi_escape}}&amp;text={{workonit_tweet|replace:'TWITTERHANDLE',website.twitter|cgi_escape}}&amp;hashtags={{page.hash|cgi_escape}}"
+           target="_blank"><i class="twitter icon"></i> {{page.link_mobile}}</a>
+      </div>
+      {% endif %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>

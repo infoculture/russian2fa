@@ -1,0 +1,21 @@
+websites:
+
+    - name: PayPal
+      url: https://www.paypal.com/
+      img: paypal.png
+      tfa: Yes
+      sms: Yes
+      software: Yes
+      hardware: Yes
+      exceptions:
+          text: "2FA is only available in a few countries. Contact PayPal on twitter for an up to date list of available countries."
+      doc: https://www.paypal.com/us/cgi-bin?cmd=xpt/Marketing_CommandDriven/securitycenter/PayPalSecurityKey-outside&bn_r=o
+
+    - name: Яндекс.Деньги
+      url: https://money.yandex.ru
+      img: yandexmoney.png
+      tfa: Yes
+      sms: Yes
+      software: Yes
+      hardware: Yes
+      doc: https://money.yandex.ru/doc.xml?id=524852

@@ -1,0 +1,89 @@
+websites:
+
+  - name: Облако Mail.Ru
+    url: https://mail.ru/
+    img: mailru.png
+    tfa: Yes
+    sms: Yes
+    software: Yes
+    doc: https://help.mail.ru/enmail-help/settings/2auth
+
+  - name: Яндекс.Диск
+    url: https://disk.yandex.ru
+    img: yandexdisk.png
+    tfa: Yes
+    software: Yes
+    exceptions:
+        text: "Для начальной настройки нужен телефон с поддержкой СМС"
+    doc: https://yandex.ru/support/passport/authorization/twofa.xml
+
+  - name: Apple iCloud
+    url: https://www.icloud.com
+    img: icloud.png
+    tfa: Yes
+    sms: Yes
+    software: Yes
+    exceptions:
+        text: "See http://support.apple.com/kb/HT5593 for a list of supported SMS carriers."
+    doc: https://support.apple.com/ru-ru/HT204152
+
+  - name: Backblaze
+    url: https://www.backblaze.com
+    img: backblaze.png
+    tfa: Yes
+    sms: Yes
+    doc: https://www.backblaze.com/blog/two-factor-verification-for-backblaze/
+
+  - name: Box
+    url: https://app.box.com/
+    img: box.png
+    tfa: Yes
+    sms: Yes
+    doc: https://support.box.com/hc/en-us/articles/200526658-Can-I-enable-2-step-verification-for-my-account-
+
+
+  - name: Dropbox
+    url: https://www.dropbox.com
+    img: dropbox.png
+    tfa: Yes
+    sms: Yes
+    software: Yes
+    hardware: Yes
+    doc: https://www.dropbox.com/ru/help/363
+
+  - name: Evernote
+    url: https://evernote.com
+    img: evernote.png
+    tfa: Yes
+    sms: Yes
+    software: Yes
+    doc: https://blog.evernote.com/blog/2013/10/04/two-step-verification-available-to-all-users/
+
+  - name: Google Drive
+    url: https://drive.google.com
+    img: drive.png
+    tfa: Yes
+    sms: Yes
+    phone: Yes
+    software: Yes
+    hardware: Yes
+    doc: http://www.google.com/landing/2step/features.html
+
+
+  - name: OneDrive
+    url: https://onedrive.live.com
+    img: onedrive.png
+    tfa: Yes
+    sms: Yes
+    software: Yes
+    doc: https://support.microsoft.com/ru-ru/help/12408/microsoft-account-about-two-step-verification
+
+
+  - name: SpiderOak
+    url: https://spideroak.com
+    twitter: spideroak
+    img: spideroak.png
+    tfa: No
+
+
+

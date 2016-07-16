@@ -1,0 +1,15 @@
+websites:
+    - name: Amazon AWS WorkSpaces
+      url: https://aws.amazon.com/workspaces/
+      doc: https://aws.amazon.com/blogs/aws/multi-factor-auth-for-workspaces/
+      tfa: Yes
+      hardware: Yes
+      software: Yes
+      img: awsworkspaces.png
+
+    - name: TeamViewer
+      url: https://www.teamviewer.com
+      img: teamviewer.png
+      tfa: Yes
+      software: Yes
+      doc: https://www.teamviewer.com/ru/help/402-How-do-I-activate-deactivate-two-factor-authentication-for-my-TeamViewer-account.aspx

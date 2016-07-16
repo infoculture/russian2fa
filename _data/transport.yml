@@ -1,0 +1,6 @@
+websites:
+    - name: Аэрофлот
+      url: https://www.aeroflot.ru
+      twitter: aeroflot
+      img: aa.png
+      tfa: No

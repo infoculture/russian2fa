@@ -1,0 +1,21 @@
+permalink: pretty
+markdown: kramdown
+
+title: Двухфакторных сервисов список
+author: Josh Davis
+description:
+    Список сайтов поддерживающих двухфакторную авторизацию которая включает
+    СМС, email, телефонные звонки, оборудование и программы.
+url: http://2fa.infoculture.ru
+repo: https://github.com/infoculture/russian2fa
+img: img/logo.png
+
+exclude:
+    - CNAME
+    - CONTRIBUTING.md
+    - EXCLUSION.md
+    - Gemfile
+    - LICENSE
+    - README.md
+    - Rakefile
+    - verify.rb

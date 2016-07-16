@@ -1,0 +1,83 @@
+- id: banking
+  title: Банки
+  icon: dollar
+
+- id: backup
+  title: Бэкапы и синхронизация
+  icon: disk outline
+
+- id: government
+  title: Государство
+  icon: lab
+
+- id: domains
+  title: Домены
+  icon: globe
+
+- id: cloud
+  title: Облачные сервисы
+  icon: cloud
+
+- id: communication
+  title: Коммуникации
+  icon: chat
+
+- id: developer
+  title: Разрабочикам
+  icon: code
+
+- id: email
+  title: Электронная почта
+  icon: mail
+
+- id: entertainment
+  title: Развлечения
+  icon: music
+
+- id: finance
+  title: Финансы
+  icon: money
+
+- id: gaming
+  title: Игры
+  icon: gamepad
+
+- id: health
+  title: Здоровье
+  icon: medkit
+
+- id: hosting
+  title: Хостинг и VPS
+  icon: sitemap
+
+- id: investing
+  title: Инвестиции
+  icon: basic money
+
+- id: payments
+  title: Платежи
+  icon: payment
+
+- id: remote
+  title: Удалённый доступ
+  icon: desktop
+
+- id: retail
+  title: Торговля
+  icon: cart
+
+- id: security
+  title: Безопасность
+  icon: lock
+
+- id: social
+  title: Соцсети
+  icon: users
+
+- id: transport
+  title: Транспорт
+  icon: car
+
+- id: utilities
+  title: Инструменты
+  icon: phone

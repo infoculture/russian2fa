@@ -1,0 +1,15 @@
+websites:
+    - name: Альфа-Банк
+      url: https://www.alfa-bank.ru/
+      img: actorsfcu.png
+      tfa: Yes
+      sms: Yes
+      software: Yes
+      doc: https://click.alfabank.ru/cs/groups/public/documents/document/alfa_help01_01.html
+
+    - name: Тинькофф
+      url: https://www.tinkoff.ru/
+      img: tinkoff.png
+      tfa: Yes
+      sms: Yes
+      doc: https://www.tinkoff.ru/secure/

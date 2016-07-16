@@ -1,0 +1,53 @@
+websites:
+    - name: Basecamp
+      url: https://basecamp.com/
+      img: basecamp.png
+      tfa: Yes
+      sms: Yes
+      doc: https://basecamp.com/help/guides/you/phone-verification
+
+    - name: Campfire
+      url: https://campfirenow.com/
+      img: campfire.png
+      tfa: Yes
+      sms: Yes
+      doc: https://help.37signals.com/sign-in/questions/460-how-do-i-set-up-and-use-phone-verification-for-logging-in
+
+    - name: MailChimp
+      url: https://mailchimp.com/
+      img: mailchimp.png
+      tfa: Yes
+      software: Yes
+      doc: http://kb.mailchimp.com/integrations/other-integrations/set-up-google-authenticator
+
+    - name: Skype (via Microsoft Account)
+      url: https://www.skype.com
+      img: skype.png
+      tfa: Yes
+      sms: Yes
+      software: Yes
+      doc: http://windows.microsoft.com/en-au/windows/two-step-verification-faq
+      exceptions:
+            text: "Двухфакторная аутентификация доступна только при входе в аккаунт Microsoft, но не отдельный аккаунт в Skype"
+
+    - name: Slack
+      url: https://slack.com/
+      img: slack.png
+      tfa: Yes
+      sms: Yes
+      software: Yes
+      doc: https://slack.zendesk.com/hc/en-us/articles/204509068-Enabling-two-factor-authentication
+
+    - name: Telegram
+      url: https://telegram.org/
+      img: telegram.png
+      tfa: Yes
+      sms: Yes
+      phone: Yes
+      doc: https://tlgrm.ru/blog/sessions-and-2-step-verification.html
+
+    - name: WhatsApp
+      url: https://www.whatsapp.com/
+      twitter: whatsapp
+      img: whatsapp.png
+      tfa: No

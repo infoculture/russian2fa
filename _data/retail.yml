@@ -1,0 +1,38 @@
+websites:
+    - name: Amazon
+      url: https://www.amazon.com
+      img: amazon.png
+      tfa: Yes
+      software: Yes
+      sms: Yes
+      exceptions:
+          text: "СМС или телефонный звонок необходим чтобы включить 2FA."
+      doc: https://www.amazon.com/gp/help/customer/display.html?nodeId=201596330
+
+    - name: Apple
+      url: https://appleid.apple.com
+      img: apple.png
+      tfa: Yes
+      sms: Yes
+      software: Yes
+      exceptions:
+          text: "Посмотрите http://support.apple.com/kb/HT5593 для списка поддерживаемых провайдеров СМС."
+      doc: https://support.apple.com/ru-ru/HT204152
+
+
+    - name: eBay
+      url: http://ebay.com
+      img: ebay.png
+      tfa: Yes
+      hardware: Yes
+      software: Yes
+      exceptions:
+          text: "eBay поддерживает 2FA только в некоторых странах."
+      doc: http://pages.ebay.com/securitykey/faq.html
+
+    - name: Etsy
+      url: http://www.etsy.com/
+      img: etsy.png
+      sms: Yes
+      tfa: Yes
+      doc: https://www.etsy.com/help/article/3335
