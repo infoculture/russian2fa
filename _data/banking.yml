@@ -1,7 +1,7 @@
 websites:
     - name: Альфа-Банк
       url: https://www.alfa-bank.ru/
-      img: actorsfcu.png
+      img: alfa.png
       tfa: Yes
       sms: Yes
       software: Yes
