@@ -1,9 +1,9 @@
-TwoFactorAuth.org
+Российский клон TwoFactorAuth.org (2fa.infoculture.ru
 =================
-
-[![Build Status](https://travis-ci.org/2factorauth/twofactorauth.svg)](https://travis-ci.org/2factorauth/twofactorauth)
+*описание пока не переведено на русский язык, но обязательно будет сделано*
+[![Build Status](https://travis-ci.org/2factorauth/twofactorauth.svg)](https://travis-ci.org/infoculture/russian2fa)
 [![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat)](/LICENSE)
-[![Gitter](https://img.shields.io/gitter/room/2factorauth/twofactorauth.svg)](https://gitter.im/2factorauth/twofactorauth)
+[![Gitter](https://img.shields.io/gitter/room/2factorauth/twofactorauth.svg)](https://gitter.im/infoculture/russian2fa)
 [![Twitter](https://img.shields.io/badge/Twitter-@2faorg-blue.svg)](https://twitter.com/2faorg)
 
 A list of popular sites and whether or not they accept two factor auth.
