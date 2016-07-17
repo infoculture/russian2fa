@@ -3,6 +3,7 @@ websites:
       url: https://www.aeroflot.ru
       twitter: aeroflot
       img: aeroflot.png
+      tfa: Noa.png
       tfa: No
 
     - name: S7 Airlines
@@ -14,6 +15,4 @@ websites:
     - name: Уральские авиалинии
       url: https://www.uralairlines.ru
       twitter: Ural_Air_Lines
-      img: uralavia.png
-      tfa: No
-
+      img: uralavi

@@ -1,4 +1,10 @@
 websites:
+    - name: Ozon.ru
+      url: https://www.ozon.ru
+      img: ozon.png
+      tfa: No
+      twitter: ozon_books
+
     - name: Amazon
       url: https://www.amazon.com
       img: amazon.png

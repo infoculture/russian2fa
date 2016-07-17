@@ -3,5 +3,9 @@ websites:
       url: https://www.gosuslugi.ru
       twitter: epgu
       img: epgu.png
-      tfa: No
+      tfa: Yes
+      sms: Yes
+      exceptions:
+          text: "Необходим телефон с поддержкой СМС."
+
 
