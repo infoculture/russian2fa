@@ -1,5 +1,5 @@
 websites:
-    - name: Портал Госуслуг
+    - name: Портал Госуслуг (федеральный)
       url: https://www.gosuslugi.ru
       twitter: epgu
       img: epgu.png
@@ -9,3 +9,20 @@ websites:
           text: "Необходим телефон с поддержкой СМС."
 
 
+    - name: Управление Президента по работе с обращениями граждан и организаций
+      url: http://letters.kremlin.ru
+      twitter: kremlinrussia
+      img: kremlinru.png
+      tfa: No
+
+    - name: Портал госуслуг г. Москвы
+      url: https://my.mos.ru
+      twitter: pgu_moskva
+      img: pgumosru.png
+      tfa: No
+
+    - name: Портал открытых данных РФ
+      url: http://data.gov.ru
+      twitter: AC_gov_ru
+      img: datagovru.png
+      tfa: No
