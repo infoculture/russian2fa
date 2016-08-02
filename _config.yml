@@ -2,7 +2,7 @@ permalink: pretty
 markdown: kramdown
 
 title: Двухфакторных сервисов список
-author: Josh Davis
+author: Ivan Begtin
 description:
     Список сайтов поддерживающих двухфакторную авторизацию которая включает
     СМС, email, телефонные звонки, оборудование и программы.

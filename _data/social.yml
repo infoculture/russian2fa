@@ -19,7 +19,7 @@ websites:
 
     - name: Google+
       url: https://plus.google.com
-      img: g+.png
+      img: gplus.png
       tfa: Yes
       sms: Yes
       phone: Yes

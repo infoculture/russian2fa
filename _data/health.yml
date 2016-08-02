@@ -1,1 +1,7 @@
 websites:
+
+    - name: Генотек
+      url: https://www.genotek.ru
+      twitter: genotek
+      img: genotek.png
+      tfa: No
